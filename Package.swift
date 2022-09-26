@@ -10,7 +10,7 @@ let package = Package(
         ],
     products: [
         .library(
-            name: "FolioReader",
+            name: "FolioReaderKit",
             targets: ["FolioReader"]),
     ],
     
