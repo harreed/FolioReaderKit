@@ -10,8 +10,8 @@ let package = Package(
         ],
     products: [
         .library(
-            name: "FolioReaderKit",
-            targets: ["FolioReader"]),
+            name: "FolioReader",
+            targets: ["FolioReaderKit"]),
     ],
     
     dependencies: [
@@ -25,7 +25,7 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "FolioReader",
+            name: "FolioReaderKit",
             dependencies: [],
             path: "Source"),
     ]
