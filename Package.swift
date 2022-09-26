@@ -1,16 +1,17 @@
-// swift-tools-version:5.1
+// swift-tools-version: 5.6
 
 import PackageDescription
 
 let package = Package(
-	name: "FolioReaderKit",
+    name: "FolioReaderKit",
+    platforms: [.iOS(.v14)],
 	dependencies: [
-		.Package(url: "https://github.com/ZipArchive/ZipArchive.git", majorVersion: 2, minor: 1),
-		.Package(url: "https://github.com/cxa/MenuItemKit.git", majorVersion: 3, minor: 0),
-		.Package(url: "https://github.com/zoonooz/ZFDragableModalTransition.git", majorVersion: 0, minor: 6),
-		.Package(url: "https://github.com/tadija/AEXML.git", majorVersion: 4, minor: 2),
-		.Package(url: "https://github.com/ArtSabintsev/FontBlaster.git", majorVersion: 4, minor: 0),
-		.Package(url: "https://github.com/fantim/JSQWebViewController.git", majorVersion: 6, minor: 1),
-		.Package(url: "https://github.com/realm/realm-cocoa.git", majorVersion: 3, minor: 1),
+		.package(url: "https://github.com/ZipArchive/ZipArchive.git", branch: "master"),
+		.package(url: "https://github.com/cxa/MenuItemKit.git", branch: "master"),
+		.package(url: "https://github.com/zoonooz/ZFDragableModalTransition.git", branch: "master"),
+		.package(url: "https://github.com/tadija/AEXML.git", branch: "master"),
+		.package(url: "https://github.com/ArtSabintsev/FontBlaster.git", branch: "master"),
+		.package(url: "https://github.com/fantim/JSQWebViewController.git", branch: "master"),
+		.package(url: "https://github.com/realm/realm-cocoa.git", branch: "master"),
 	]
 )
