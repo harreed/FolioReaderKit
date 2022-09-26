@@ -26,6 +26,7 @@ let package = Package(
     targets: [
         .target(
             name: "FolioReader",
-            dependencies: []),
+            dependencies: [],
+            path: "Source"),
     ]
 )
